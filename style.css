@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    background-color: #d9d9d9;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-image: url("https://i.pinimg.com/originals/f9/7e/cb/f97ecb05a58a1c00981e0517cf03483d.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: "Ubuntu";
+    font-size: 5rem;
+}
+
+.page-content-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-content {
+    max-width: 70vw;
+    font-family: lato;
+    font-size: 1.5rem;
+}
